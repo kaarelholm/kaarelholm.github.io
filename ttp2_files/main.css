@@ -83,6 +83,7 @@ background: linear-gradient(to right,#fff 0,#ff8000 33%,#008c8c 66%,#000 100%);
 	width: 80%;
 	margin: 0 auto;
 	font-size: 47px !important;
+	max-width: 1100px;
 }
 
 .header1
