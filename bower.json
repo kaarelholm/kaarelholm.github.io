@@ -1,16 +1,28 @@
 {
-  "name": "onepage-scroll",
-  "version": "1.0.0",
-  "author": "Pete R",
-  "main": [
-    "jquery.onepage-scroll.js",
-    "onepage-scroll.css"
+  "name": "fullpage.js",
+  "version": "1.7.5",
+  "homepage": "http://alvarotrigo.com/fullPage/",
+  "authors": [
+    "Alvaro Trigo https://github.com/alvarotrigo"
   ],
+  "description": "Create full screen pages fast and simple",
+  "main": "jquery.fullPage.js",
+  "keywords": [
+    "jquery",
+    "scrolling",
+    "single_page"
+  ],
+  "license": "MIT",
   "ignore": [
-    "Demo",
-    "README.md"
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
   ],
   "dependencies": {
-    "jquery": "~1.10.2"
-  }
+      "jquery.slimscroll": "latest",
+      "jQuery": "latest",
+      "jquery.ui": "latest"
+    }
 }
