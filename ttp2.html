@@ -7,6 +7,7 @@
 <link rel="stylesheet" type="text/css" href="./ttp2_files/main.css">
 <link href="./ttp2_files/css(1)" rel="stylesheet" type="text/css">
 <link href="./ttp2_files/css(2)" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
 
 <style type="text/css"></style></head>
 <body>
@@ -33,8 +34,9 @@
 			</div>
 		</div>
 	</div>
+	<div class="section">
+		 <div data-anchor="slide1"> 
 	<div class="content">
-		<section>
 		<div class="imageTest">
 		<h1 class="tlt">
     <ul class="texts">
@@ -43,8 +45,11 @@
         <li data-in-effect="fadeIn">Tallinn, London, St.Petersburg!</li>
     </ul>
 </h1></div>
-		</section>
-		<section>
+</div>
+</div>
+
+	 <div data-anchor="slide2"> 
+		
 		<div class="wrap" style="padding-top:30px;">
 		<h1 class="header1">What? Why? Binary?</h1>
 		<p>Binary is a set of young talented programmers who use their passion to turn lines of code into art. All our workers believe that well written code 
@@ -85,9 +90,9 @@ margin-top: 61px;;"</img>
 		</div>	
 		-->
 		
-	
 	</div>
-	</section>
+	</div>
+	</div>
 	<!--
 	<div class="content2">
 		<div class="wrap" style="padding-top:10px;">	
@@ -117,15 +122,26 @@ color: #c2c0c8; margin-top:0px;">
 	
 
 	-->
-	<section>
+	<div class="section">
 	<div class="grayBack">
 	<div class="wrap" style="padding-top:150px;">
 	<h1 class="header1">What can we do?</h1>
 	</div>
 	</div>
-	</section>
 	</div>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<!-- This following line is needed in case of using the default easing option or when using another
+ one rather than "linear" or "swing". You can also add the full jQuery UI instead of this file if you prefer -->
+<script src="vendors/jquery.easings.min.js"></script>   
+
+
+<!-- This following line needed in the case of setting the plugin option `scrollOverflow` to `true` -->
+<script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+
+<script type="text/javascript" src="./jquery.fullPage.js"></script>
 	<script src="./textillate-master/assets/jquery.fittext.js"></script>
 	<script src="./textillate-master/assets/jquery.lettering.js"></script>
 	<script src="./jquery.flatshadow.js"></script>
@@ -218,8 +234,13 @@ $('.tlt').textillate({
 var counter = 0;
 var nextColor;
 
-$(document).ready(function(){
+$(document).ready(function() {
+    $.fn.fullpage({
+    	 anchors:['slide1', 'slide2'],
+    });
+});
 
+$(document).ready(function(){
 
 var array = new Array("#1ABC9C","#2ecc71","#3498db","#9b59b6","#34495e","#f1c40f","#e67e22", "#e74c3c");
 
