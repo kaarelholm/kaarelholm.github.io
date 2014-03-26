@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)https://googledrive.com/host/0BxZtVZSTnGnqMC1XNGtwcFZBOXM/ttp.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href="./ttp2_files/css" rel="stylesheet" type="text/css">
+<link href="./textillate-master/assets/animate.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./ttp2_files/main.css">
+<link href="./ttp2_files/css(1)" rel="stylesheet" type="text/css">
+<link href="./ttp2_files/css(2)" rel="stylesheet" type="text/css">
+
+<style type="text/css"></style></head>
+<body>
+	<div class="navBar">
+		<div class="wrap">
+			<div class="leftHeader">
+			<!---
+			<div class=""><div class="flat-icon"><h1 class="vv">B</h1></div><h1 class="vv2">Binary</h1></div> -->
+		
+			</div>
+			<div class="rightHeader">
+			<span style="float:right">
+
+			<a href="l#">Binary</a>
+			<span class="divider"></span>
+			<a href="#">What?/Why?</a>
+			<span class="divider"></span>
+			<a href="#">Who?</a>
+			<span class="divider"></span>
+			<a href="#">Work!</a>
+			<span class="divider"></span>
+			<a href="#">Contact</a>
+			</span>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<section>
+		<div class="imageTest">
+		<h1 class="tlt">
+    <ul class="texts">
+        <li data-out-effect="fadeOut" data-out-shuffle="true">Algorithms! Machine Learning! Mobile! Games! You name it...! We got it! </li>   
+        <li data-out-effect="fadeOut" data-out-shuffle="true">We are here to turn your wildest dreams into reality!</li>
+        <li data-in-effect="fadeIn">Tallinn, London, St.Petersburg!</li>
+    </ul>
+</h1></div>
+		</section>
+		<section>
+		<div class="wrap" style="padding-top:30px;">
+		<h1 class="header1">What? Why? Binary?</h1>
+		<p>Binary is a set of young talented programmers who use their passion to turn lines of code into art. All our workers believe that well written code 
+		changes the world.Binary is a set of young talented programmers who use their passion to turn lines of code into art. All our workers believe that well written code 
+		changes the world. Binary is a set of young talented programmers who use their passion to turn lines of code into art. All our workers believe that well written code 
+		changes the world. </p>
+	
+	
+		
+		
+	
+
+
+
+		
+	
+			<!--
+			<div class="cont">
+			<h1> Mingi suvaline tekst, Filmimees tegutseb juba aastast 1995, palju ponevaid saateid bla bla bla. Lorem ipsum.</h1>
+			
+			</div>
+			<img src="tv.png" style="height: 250px;
+margin-left: 180px;"</img>
+		-->
+		
+		<!--
+			<img src="tv.png" style="height: 170px;
+margin: 0 auto;
+margin-left: 60px;
+margin-top: 61px;;"</img> 	
+			<h1>Produktsioon</h1>
+		</div>
+		<div class="box">
+		<h1>Erakool</h1>
+		</div>	
+		<div class="box">
+		<h1>Internet</h1>
+		</div>	
+		-->
+		
+	
+	</div>
+	</section>
+	<!--
+	<div class="content2">
+		<div class="wrap" style="padding-top:10px;">	
+		<span style="font-family: &#39;PT Sans&#39;;font-size: 50px;
+color: #444052;margin-left: 345px;border-bottom: 1px solid#dedede;padding-bottom: 0px;">
+		
+		</span>
+		<span style="font-family: &#39;PT Sans&#39;;
+font-size: 18px;
+color: #c2c0c8; margin-top:0px;">
+		
+		<div class="pic">
+		<img src="./ttp2_files/1.jpg" style="
+    /* margin-top: 330px; */
+">
+		<img src="./ttp2_files/2.jpg" style="/* margin-top:330px; */">
+		
+<img src="./ttp2_files/3.jpg" style="
+    /* margin-top: 330px; */
+"><img src="./ttp2_files/3.jpg" style="
+    /* margin-top: 330px; */
+">
+		
+		</div>
+		</span></div>
+	</div>
+	
+
+	-->
+	<section>
+	<div class="grayBack">
+	<div class="wrap" style="padding-top:150px;">
+	<h1 class="header1">What can we do?</h1>
+	</div>
+	</div>
+	</section>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="./textillate-master/assets/jquery.fittext.js"></script>
+	<script src="./textillate-master/assets/jquery.lettering.js"></script>
+	<script src="./jquery.flatshadow.js"></script>
+<script src="./jquery.animate-colors.js"></script>
+<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+<script src="./textillate-master/jquery.textillate.js"></script>
+<script>
+
+$(".flat-icon").flatshadow({
+  //color: "#2ecc71", // Background color of elements inside. (Color will be random if left unassigned)
+  angle: "SE", // Shadows direction. Available options: N, NE, E, SE, S, SW, W and NW. (Angle will be random if left unassigned)
+  fade: true, // Gradient shadow effect
+  boxShadow: "#ddd"
+});
+
+$(".bubble").flatshadow({
+  //color: "#2ecc71", // Background color of elements inside. (Color will be random if left unassigned)
+  angle: "SE", // Shadows direction. Available options: N, NE, E, SE, S, SW, W and NW. (Angle will be random if left unassigned)
+  fade: true, // Gradient shadow effect
+  //boxShadow: "#ddd"
+});
+
+
+$('.tlt').textillate({
+  // the default selector to use when detecting multiple texts to animate
+
+  // enable looping
+  loop: true,
+
+  // sets the minimum display time for each text before it is replaced
+  minDisplayTime: 0,
+
+  // sets the initial delay before starting the animation
+  // (note that depending on the in effect you may need to manually apply 
+  // visibility: hidden to the element before running this plugin)
+  initialDelay: 0,
+
+  // set whether or not to automatically start animating
+  autoStart: true,
+
+  // custom set of 'in' effects. This effects whether or not the 
+  // character is shown/hidden before or after an animation  
+  inEffects: [],
+
+  // custom set of 'out' effects
+  outEffects: [ 'hinge' ],
+
+  // in animation settings
+  in: {
+    // set the effect name
+    effect: 'flipInX',
+
+    // set the delay factor applied to each consecutive character
+    delayScale: 1.5,
+
+    // set the delay between each character
+    delay: 50,
+
+    // set to true to animate all the characters at the same time
+    sync: false,
+
+    // randomize the character sequence 
+    // (note that shuffle doesn't make sense with sync = true)
+    shuffle: false,
+
+    // reverse the character sequence 
+    // (note that reverse doesn't make sense with sync = true)
+    reverse: false,
+
+    // callback that executes once the animation has finished
+    callback: function () {}
+  },
+
+  // out animation settings.
+  out: {
+    effect: 'hinge',
+    delayScale: 1.5,
+    delay: 50,
+    sync: false,
+    shuffle: false,
+    reverse: false,
+    callback: function () {}
+  },
+
+  // callback that executes once textillate has finished 
+  callback: function () {}
+});
+
+
+var counter = 0;
+var nextColor;
+
+$(document).ready(function(){
+
+
+var array = new Array("#1ABC9C","#2ecc71","#3498db","#9b59b6","#34495e","#f1c40f","#e67e22", "#e74c3c");
+
+var counter = 0;
+var nextColor;
+
+function  bgchange() {
+    console.log (counter);
+    counter = (counter + 1) % array.length;
+    nextColor = array[counter];
+
+    $('.imageTest').animate({backgroundColor: nextColor}, 30000)
+
+}
+
+
+    setInterval(bgchange, 10)
+
+
+});
+
+$(function(){
+    $('.navBar').data('size','big');
+});
+
+$(window).scroll(function(){
+
+
+
+    if($(document).scrollTop() > 400)
+    {
+        if($('.navBar').data('size') == 'big')
+        {
+        
+            $('.navBar').data('size','small');
+            $('.navBar').stop().animate({
+                height:'40px',
+                
+            },600);
+        }
+    }
+    
+    else
+    {
+        if($('.navBar').data('size') == 'small') 
+        {
+
+            $('.navBar').data('size','big');
+            $('.navBar').stop().animate({
+                height:'100px'
+            },600);
+        }  
+    }
+});
+
+(function($) {
+    $.fn.goTo = function() {
+        $('html, body').animate({
+            scrollTop: $(this).offset().top + 'px'
+        }, 'fast');
+        return this; // for chaining...
+    }
+})(jQuery);
+
+
+
+
+
+
+	</script>
+
+</div></body></html>
